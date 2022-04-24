@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins";
+    color: #1f384c;
+}
+
+/* Scrollbar styling */
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+nav{
+    background-color: lightgrey;
+    padding: 20px 0px;
+}
+
+nav h4{
+    display: inline;
+    letter-spacing: 1px;
+    padding-left: 30px;
+}
+
+ul{
+    float: right;
+    margin: 0px auto;
+}
+
+li{
+    list-style-type: lower-alpha;
+    display: inline;
+    font-size: 12px;  
+    padding: 0px 30px;
+    font-weight: 500;
+}
+
+
+#content{
+    padding: 70px;
+    margin: 0px auto;
+    
+}
+
+.portrait{
+    float:left;
+    width: 350px;
+    height: 700px;
+    border: 1px solid #333;
+    border-radius: 20px;
+    box-shadow: 0px 2px 20px #3333;
+    overflow: hidden;
+
+}
+
+.portrait img{
+    height: 100%;
+    margin-left: -50px;
+}
+
+.details{
+    float: left;
+    margin: 0px 40px;
+}
+
+.wrapper, .contact{
+    width: 100%;
+    border: 1px solid rgb(45, 45, 167);
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.title{
+    margin-top: 20px;
+}
+
+.details p {
+    font-size: 12px;
+    color: #555;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.contact{
+    margin-top: 40px;
+}
